@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    width: 50%;
+    max-width: 450px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+input, button {
+    font-family: 'DM Sans', sans-serif;
+    padding: 4px;
+}
+
+
+
+table {
+    border: 0px solid;
+    margin: 30px auto 0px auto;
+    width: 100%;
+}
+
+table, th, td, tr {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+td {
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+th:first-child {
+    width: 55%;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.lista {
+    font-size: 0.7rem;
+    margin-top: 5px;
+    color: #555;
+}
+
+ul {
+    margin-left: 15px;
+}
